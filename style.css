@@ -1,0 +1,13 @@
+:root {
+    var(--primary-colors: #00856F);
+    var(--secondary-colors: #212529);
+}
+.principal{
+    
+}
+    .principal__titulo--secundario{
+        color: var(--primary-colors);
+}
+    .principal__titulo--primario {
+        color: var(--secondary-colors);
+    }

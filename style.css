@@ -3,20 +3,35 @@
     --primary-colors: #00856F;
     --secondary-colors: #212529;
     --gray-paragraph: #495057;
+    --brand-green-light: #DCE9E2;
 }
 .principal{
     text-align: center;
     font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    width: 37.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4.1rem;
 }
     .principal__titulo--secundario{
         color: var(--primary-colors);
-
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
 }
     .principal__titulo--primario {
         color: var(--secondary-colors);
+        font-size: 3.4rem;
+        line-height: 150%;
+        margin-bottom: 2.4rem;
+        
     }
     .principal__paragrafo {
-        color: var(--gray-paragraph)
+        color: var(--gray-paragraph);
+        font-weight: 400;
+        line-height: 150%;
+        font-size: 1.8rem;
+        margin-bottom: 3.2rem;
     }
     .principal__botao {
         text-transform: uppercase;
@@ -36,3 +51,9 @@
         margin-right: auto;
         margin-left: auto;
     }
+
+    .principal__imagem{}
+    .dados{}
+        .dados__div{}
+            .dados__titulo{}
+            .dados__texto{}

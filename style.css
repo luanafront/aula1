@@ -60,8 +60,11 @@
         .dados__div{}
             .dados__titulo{
                 color: #000;
-                padding-top: 4.0rem;
+                padding-top: 3.0rem;
+                font-size: 3.4rem;
+                margin: 0;
             }
             .dados__texto{
                 color:#00856F;
+                margin: 0;
             }

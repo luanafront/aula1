@@ -1,13 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
 :root {
-    var(--primary-colors: #00856F);
-    var(--secondary-colors: #212529);
+    --primary-colors: #00856F;
+    --secondary-colors: #212529;
+    --gray-paragraph: #495057;
 }
 .principal{
-    
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
 }
     .principal__titulo--secundario{
         color: var(--primary-colors);
+
 }
     .principal__titulo--primario {
         color: var(--secondary-colors);
+    }
+    .principal__paragrafo {
+        color: var(--gray-paragraph)
+    }
+    .principal__botao {
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 4rem;
+        border: none;
+        background-color: var(--primary-colors);
+        margin-bottom: 6rem;
+        height: 6.2rem;
+        width: 26.3rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.6rem;
+        margin-right: auto;
+        margin-left: auto;
     }

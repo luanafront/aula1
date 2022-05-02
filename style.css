@@ -3,6 +3,7 @@
     --primary-colors: #00856F;
     --secondary-colors: #212529;
     --gray-paragraph: #495057;
+    --beige: #FFFAF1;
     --brand-green-light: #DCE9E2;
 }
 .principal{
@@ -53,7 +54,11 @@
     }
 
     .principal__imagem{}
-    .dados{}
+    .dados{
+        background-color: var(--beige);
+    }
         .dados__div{}
-            .dados__titulo{}
+            .dados__titulo{
+                
+            }
             .dados__texto{}

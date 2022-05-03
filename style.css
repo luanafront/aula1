@@ -6,10 +6,25 @@
     --beige: #FFFAF1;
     --brand-green-light: #DCE9E2;
 }
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
 .principal{}
-    .principal__section--texto {}
-        .principal__texto{}
-        .principal__titulo{}
+    .principal__section--texto {
+        background-color: #DCE9E2;
+        padding: 12px;
+    }
+        .principal__texto{
+            color: var(--primary-colors);
+            margin-top: 41px;
+            font-weight: 400px;;
+        }
+        .principal__titulo{
+            font-size: 34px;
+            margin-top: 23px;
+        }
         .principal__paragrafo {}
         .principal__botao {}
         .principal__imagem{}

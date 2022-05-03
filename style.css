@@ -14,12 +14,12 @@ body {
 .principal{}
     .principal__section--texto {
         background-color: #DCE9E2;
-        padding: 12px;
+        padding-top: 12px;
     }
         .principal__texto{
             color: var(--primary-colors);
             margin-top: 41px;
-            font-weight: 400px;;
+            font-weight: 400px;
         }
         .principal__titulo{
             font-size: 34px;
@@ -27,7 +27,8 @@ body {
         }
         .principal__paragrafo {
             color: var(--gray-paragraph);
-            font-size: 19px;
+            font-size: 18px;
+            margin: 0 23px;
         }
         .principal__botao {
             text-transform: uppercase;
@@ -45,9 +46,22 @@ body {
             font-weight: 600;
             margin: 26px auto 55px auto;
         }
-        .principal__imagem{}
+        .principal__imagem{
+            
+        }
 
-    .principal__section--dados{}
+    .principal__section--dados{
+        background-color: var(--beige);
+        padding: 33px;
+    }
         .dados__div{}
-            .dados__titulo{}
-            .dados__texto{}
+            .dados__titulo{
+                color: #000;
+                padding-top: 2.0rem;
+                font-size: 3.4rem;
+                margin: 0;
+            }
+            .dados__texto{
+                color:#00856F;
+                margin: 0;
+            }

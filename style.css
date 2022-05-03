@@ -25,8 +25,26 @@ body {
             font-size: 34px;
             margin-top: 23px;
         }
-        .principal__paragrafo {}
-        .principal__botao {}
+        .principal__paragrafo {
+            color: var(--gray-paragraph);
+            font-size: 19px;
+        }
+        .principal__botao {
+            text-transform: uppercase;
+            color: #fff;
+            border-radius: 30px;
+            border: none;
+            background-color: var(--primary-colors);
+            height: 51px;
+            width: 17.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.6rem;
+            font-size: 13px;
+            font-weight: 600;
+            margin: 26px auto 55px auto;
+        }
         .principal__imagem{}
 
     .principal__section--dados{}

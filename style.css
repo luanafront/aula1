@@ -13,7 +13,6 @@ body {
 }
 .principal{}
     .principal__section--texto {
-        background-color: #DCE9E2;
         padding-top: 12px;
     }
         .principal__texto{
@@ -47,12 +46,16 @@ body {
             margin: 26px auto 55px auto;
         }
         .principal__imagem{
-            
+            display: block;
+            margin-inline: auto;
+           
         }
-
+1   
     .principal__section--dados{
         background-color: var(--beige);
         padding: 33px;
+        border: 1px solid var(--brand-green-light);
+        border-radius: 6px;
     }
         .dados__div{}
             .dados__titulo{
@@ -65,3 +68,10 @@ body {
                 color:#00856F;
                 margin: 0;
             }
+
+header::before {
+    content: "";
+    width: 100vw;
+    height: 108rem;
+    
+}

@@ -11,6 +11,19 @@ body {
     font-family: 'DM Sans', sans-serif;
     text-align: center;
 }
+header::before {
+    content: "";
+    width: 100vw;
+    height: 66rem;
+    background-color: var(--brand-green-light);
+    display: block;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+
+}
 .principal{}
     .principal__section--texto {
         padding-top: 12px;
@@ -66,12 +79,8 @@ body {
             }
             .dados__texto{
                 color:#00856F;
-                margin: 0;
+                margin: 1px;
             }
 
-header::before {
-    content: "";
-    width: 100vw;
-    height: 108rem;
-    
-}
+
+
